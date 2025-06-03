@@ -7,7 +7,7 @@ class Main {
         var app = new HaxeUIApp();
         app.ready(function() {
             app.addComponent(new MainView());
-
+            app.title = "gxinput";
             app.start();
         });
     }
