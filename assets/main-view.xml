@@ -3,7 +3,7 @@
   <hbox width="100%">
     <vbox width="350">
       <section-header text="Inputs"/>
-      <listview id="lv1" width="100%" height="300" selectedIndex="0">
+      <listview id="inputs" width="100%" height="300" selectedIndex="0">
         <data>
           <item text="Virtual core XTEST pointe" icon="icons/logo-haxe.png"/>
           <item text="Corsair CORSAIR KATAR PRO XT Gaming Mouse" icon="icons/logo-java.png"/>
@@ -13,19 +13,19 @@
     <vbox width="100%">
       <section-header text="Settings"/>
       <label text="Transformation matrix:" verticalAlign="center"/>
-      <label text="1.000000, 0.000000, 0.000000, \n0.000000, 1.000000, 0.000000, \n0.000000, 0.000000, 1.000000" verticalAlign="center" />
+      <label style="font-name:'Courier';" text="1.000000, 0.000000, 0.000000, \n0.000000, 1.000000, 0.000000, \n0.000000, 0.000000, 1.000000" verticalAlign="center" id="matrixLabel"/>
       <grid>
         <label text="x-scale:" verticalAlign="center"/>
-        <slider pos="320" min="300" max="500" onchange=""/>
+        <slider pos="100" min="0" max="200" id="xSlider"/>
         <label text="y-scale:" verticalAlign="center"/>
-        <slider pos="75" min="35" max="300" onchange=""/>
+        <slider pos="100" min="0" max="200" id="ySlider"/>
       </grid>
     </vbox>
   </hbox>
   <vbox width="100%">
-      <hbox width="180" horizontalAlign="right">
-        <button text="Close" />
-        <button text="Apply" />
-      </hbox>
+    <hbox width="180" horizontalAlign="right">
+      <button text="Close" id="closeButton"/>
+      <button text="Apply" id="applyButton"/>
+    </hbox>
   </vbox>
 </vbox>
