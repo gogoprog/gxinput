@@ -1,1 +1,6 @@
 /build
+
+/aur/*
+!/aur/PKGBUILD
+!/aur/.SRCINFO
+
