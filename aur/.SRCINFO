@@ -1,6 +1,6 @@
 pkgbase = gxinput-git
 	pkgdesc = Graphical front-end for xinput using wxwidgets
-	pkgver = r4.17b523b
+	pkgver = r5.5dc5117
 	pkgrel = 1
 	url = https://github.com/gogoprog/gxinput
 	arch = x86_64

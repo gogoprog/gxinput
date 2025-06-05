@@ -1,7 +1,7 @@
 # Maintainer: gogoprog <gogoprog at gmail dot com>
 
 pkgname=gxinput-git
-pkgver=r5.be77fb9
+pkgver=r5.5dc5117
 pkgrel=1
 pkgdesc="Graphical front-end for xinput using wxwidgets"
 arch=('x86_64')
